@@ -382,3 +382,92 @@ section#phone-problem div span {
 
   text-align: center;
 }
+
+section#forgotten-report-problem {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+section#forgotten-report-problem img {
+  width: 112px;
+  height: auto;
+}
+
+section#forgotten-report-problem h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #5e5f62;
+
+  margin-top: 15px;
+
+  text-align: center;
+}
+
+section#forgotten-report-problem div {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+section#forgotten-report-problem div h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #5e5f62;
+
+  margin: 15px 0 10px 0;
+
+  text-align: center;
+}
+
+section#forgotten-report-problem div form label {
+  display: block;
+  margin: 10px 0 5px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #5e5f62;
+}
+
+section#forgotten-report-problem div form input {
+  border: 0;
+  background-color: #5e5f62;
+  padding: 10px 10px;
+  outline: 0;
+  border-radius: 5px;
+  color: white;
+}
+
+section#forgotten-report-problem div form button {
+  border: 0;
+  background-color: #1a73e8;
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  outline: 0;
+  width: 100%;
+
+  margin-top: 10px;
+  display: block;
+}
+
+section#forgotten-report-problem div span {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #5e5f62;
+
+  margin: 15px 0 0 0;
+
+  text-align: center;
+}

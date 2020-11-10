@@ -95,3 +95,24 @@ function getNumberInputData() {
   var convertedNumber = convertPhone(inputVal);
   numberSpan.innerHTML = `This is converted number: ${convertedNumber}`;
 }
+
+function searchForgottenReport() {
+  var inputReport = document.getElementById("report1-input").value;
+  var inputAverageReport = document.getElementById("average-report-input")
+    .value;
+  var forgottenReportSpan = document.getElementById("forgotten-report-span");
+
+  if (inputReport < 0 || inputReport > 100) {
+    forgottenReportSpan.innerHTML = `Report 1: invalid report value!`;
+    return;
+  }
+
+  if (inputAverageReport < 0 || inputAverageReport > 100) {
+    forgottenReportSpan.innerHTML = `Average report: invalid average value!`;
+    return;
+  }
+
+  var forgottenReport = inputAverageReport * 2 - inputReport;
+
+  forgottenReportSpan.innerHTML = `This is your forgotten report: ${forgottenReport}`;
+}

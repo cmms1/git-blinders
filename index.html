@@ -60,7 +60,9 @@
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
-          <a class="card-button">GO TO SOLUTION</a>
+          <a class="card-button" href="#forgotten-report-problem"
+            >GO TO SOLUTION</a
+          >
         </div>
       </section>
       <section id="phone-problem">
@@ -77,7 +79,27 @@
           <span id="number-span"></span>
         </div>
       </section>
-      <section id="forgotten-report-problem"></section>
+      <section id="forgotten-report-problem">
+        <img
+          alt="phone"
+          src="assets/svgs/icons/calculator.svg"
+          class="phone-icon"
+        />
+        <h1>Forgotten Report Problem</h1>
+        <div>
+          <h2>Insert the values:</h2>
+          <form>
+            <label>Report 1:</label>
+            <input name="number-input" id="report1-input" type="text" />
+            <label>Average report:</label>
+            <input name="number-input" id="average-report-input" type="text" />
+            <button type="button" onclick="searchForgottenReport()">
+              Search
+            </button>
+          </form>
+          <span id="forgotten-report-span"></span>
+        </div>
+      </section>
       <section id="footer">
         <div class="person">
           <img class="profile" alt="carlos" src="assets/profiles/carlos.jpg" />
